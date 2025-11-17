@@ -47,12 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        Tôi là một lập trình viên web có đam mê với việc xây dựng các giải pháp phần mềm sáng tạo và hiệu quả. Với kinh nghiệm làm việc trên cả frontend (React, Next.js) và backend (Node.js, Express), tôi có khả năng phát triển các ứng dụng web phức tạp từ đầu đến cuối. Tôi luôn học hỏi các công nghệ mới và tập trung vào việc viết mã sạch, dễ bảo trì và tối ưu hóa hiệu suất. Hãy cùng nhau làm việc để biến ý tưởng của bạn thành hiện thực!
+</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
@@ -63,4 +59,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, "Về tôi");
